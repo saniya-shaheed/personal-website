@@ -1,0 +1,120 @@
+body, .homepage-section {
+  background-image: url(background.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: bahnschrift;
+}
+
+.bg-orange, .bg-red, .bg-blue, .bg-green {
+  height: 65px;
+  border: 01px solid rgb(120, 115, 115);
+}
+
+.bg-orange {
+  background-color: rgb(238, 160, 15);
+}
+
+.bg-red {
+  background-color: rgb(218, 35, 35);
+}
+
+.bg-blue {
+  background-color: rgb(85, 173, 198);
+}
+
+.bg-green {
+  background-color: rgb(142, 210, 142);
+}
+
+footer a {
+  width: 40px;
+}
+
+.copyright {
+  font-size: 0.6rem;
+}
+
+.resume-year {
+  color: rgb(113, 111, 111);
+}
+
+.project-link {
+  color: gray;
+}
+
+.resume-project-link a {
+  font-size: 1rem;
+}
+
+.card-body h5 {
+  color: rgb(106, 91, 91);
+}
+
+.contact-button {
+  height: 45px;
+  width: 140px;
+}
+
+.caption-carousel {
+  font-size: 1.00rem;
+}
+
+.carousel-next-icon {
+  font-size: 5rem;
+  color: black;
+}
+
+.carousel-prev-icon {
+  font-size: 5rem;
+  color: black;
+}
+
+@media screen and (min-width: 1024px) {
+
+  .bg-orange, .bg-red, .bg-blue, .bg-green {
+    height: 105px;
+  }
+
+  .card {
+    width: 300px;
+  }
+
+  .web-tech-img img {
+    height: 143px;
+  }
+
+  .contact-section-button button {
+    height: 130px;
+    width: 130px;
+    font-size: 1.5rem;
+  }  
+  
+}
+
+@media screen and (min-width: 768px) {
+
+  .card-first-row .card {
+    height: 400px;
+  }
+
+  .react-img-height {
+    height: 285px;
+  }
+
+  .card-second-row .card {
+    height: 286px;
+  }
+
+  .card-second-row img {
+    height: 200px;
+  }
+
+  .js-library-img img {
+    height: 196px;
+  }
+
+}
