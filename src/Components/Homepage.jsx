@@ -17,7 +17,7 @@ function Homepage() {
                     </div>
                     <div className="col-md-6 pt-2 pb-3 pt-md-5">
                         <h1 className='display-1 text-dark  pt-lg-5'><strong> Hello there! </strong></h1>
-                        <h4 className='text-dark pt-2'> Welcome to the World of My Coding!</h4>
+                        <h4 className='text-dark pt-2'> Welcome to My World of Coding!</h4>
                         <p> I'm Saniya, a passionate and dedicated programming enthusiast. 
                             While I may be a fresher, my love for coding has driven me to 
                             explore and master a range of technologies. Join me on this 

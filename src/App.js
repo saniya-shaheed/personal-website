@@ -9,10 +9,9 @@ import Projects from './Components/Projects';
 function App() {
   return (
     <div className="App">
-      <BrowserRouter>
+      <BrowserRouter  basename="/personal-website">
       <Routes>
       <Route path="/" element={<Homepage />} />
-          <Route index element={<Homepage />} />
           <Route path="resume" element={<Resume />} />
           <Route path="skills" element={<Skills />} />
           <Route path="projects" element={<Projects />} />
