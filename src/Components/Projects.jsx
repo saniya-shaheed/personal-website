@@ -12,10 +12,16 @@ function Projects() {
                 <div id="carouselExampleControls" class="carousel slide p-3 pt-5 ps-md-1 pe-md-1 col-md-10" data-ride="carousel">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
+                            <a href="https://saniya-shaheed.github.io/personal-website/">
                             <img class="d-block w-100 " src="project1.png" alt="First slide" />
+                            </a>
                             <div className="bg-white rounded-bottom-5">
                                 <h5 className='p-3 pb-1 text-secondary'> 1. My Personal Portfolio Website </h5>
-                                <p className='ps-3 pb-4 caption-carousel'> 
+                                <p className='ps-3 pb-4 caption-carousel'>
+                                    <div> <p>
+                                    Website: <a href='https://saniya-shaheed.github.io/personal-website/'> https://saniya-shaheed.github.io/personal-website/ </a><br />
+                                    Github: <a href='https://github.com/saniya-shaheed/personal-website'> https://github.com/saniya-shaheed/personal-website </a>
+                                    </p></div> 
                                     <ul className='project-ul'>
                                         <li>Developed a website to showcase <strong>frontend development skills</strong>.</li>
                                         <li>Designed a visually appealing user interface using <strong>HTML, CSS, and JavaScript</strong>.</li>

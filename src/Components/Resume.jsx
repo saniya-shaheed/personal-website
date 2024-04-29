@@ -28,7 +28,7 @@ function Resume() {
                   <p> While I may not have formal work experience in a professional setting, I have 
                       dedicated my time to honoring my skills in frontend development through various 
                       projects.</p>
-                  <a href='/projects' className='project-link'> View My Projects </a>
+                  <a href='/personal-website/projects' className='project-link'> View My Projects </a>
                 </dd>
           </dl>
           <hr />
