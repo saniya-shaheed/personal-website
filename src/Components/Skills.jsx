@@ -1,69 +1,77 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Footer from './Footer'
+import React from "react";
 
 function Skills() {
   return (
-    <section id='skills-section' className="skills-section">
-        <Navbar />
-        <div className="container">
-          <h1 className='display-4 p-5'><strong> Skills </strong></h1>
-          <div className="row card-first-row">
-            <div className="col-md-6 p-3 p-md-2 d-flex justify-content-center align-items-center justify-content-md-end">
-              <div class="card col-10">
-                <div className="web-tech-img d-flex">
-                  <img class="card-img-top w-50" src="html.jpg" alt="Card image cap" />
-                  <img class="card-img-top w-50" src="css.jpg" alt="Card image cap" />
-                </div>
-                <div className="web-tech-img d-flex border-bottom">
-                  <img class="card-img-top w-50" src="javascript.jpg" alt="Card image cap" />
-                  <img class="card-img-top w-50 rounded-0" src="bootstrap.jpg" alt="Card image cap" />
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title text-center">Web Technologies</h5>
-                  <p class="card-text"> HTML 5, CSS 3 , JavaScript (ES6+), Bootstrap </p>
-                </div>
+    <section id="skills-section" className="skills-section">
+      <div className="container-fluid">
+        <h1 className="display-3 p-5 pb-4 pt-md-3 align-items-center justify-content-start d-flex">
+          <strong>Skills </strong>
+        </h1>
+        <div className="row justify-content-center">
+          <div className="col-md-5 p-1 p-lg-2 p-xl-3">
+            <div className="card  p-3 p-xl-5">
+              <div className="image-body d-flex col-4">
+                <img class="card-img-top col-4" src="html.jpg" alt="HTML" />
+                <img class="card-img-top col-4" src="css.jpg" alt="CSS" />
+                <img
+                  class="card-img-top col-4"
+                  src="javascript.jpg"
+                  alt="JavaScript"
+                />
               </div>
-            </div>
-            <div className="col-md-6 p-3 p-md-2 d-flex justify-content-center align-items-center justify-content-md-start">
-              <div class="card col-10 ">
-                <div className="react-img-height d-md-flex align-items-md-center border-bottom">
-                  <img class="card-img-top" src="react.png" alt="Card image cap" />
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title text-center"> Frontend Framework </h5>
-                  <p class="card-text"> React </p>
-                </div>
+              <div className="card-body">
+                <h5 class="card-title">Languages</h5>
+                <p class="card-text">HTML5, CSS3, JavaScript</p>
               </div>
             </div>
           </div>
-          <div className="row card-second-row">
-            <div className="col-md-6 p-3 p-md-2 d-flex justify-content-center align-items-center justify-content-md-end">
-              <div class="card col-10">
-                <div className="js-library-img d-flex border-bottom">
-                  <img class="card-img-top w-50" src="reactjl.png" alt="Card image cap" />
-                  <img class="card-img-top w-50" src="jquery.png" alt="Card image cap" />
-                </div>
-                <div class="card-body">
-                  <h5 class="card-title text-center"> JavaScript Libraries </h5>
-                  <p class="card-text"> React, jQuery </p>
-                </div>
+
+          <div className="col-md-5 p-1 p-lg-2 p-xl-3">
+            <div className="card  p-3 p-xl-5">
+              <div className="image-body d-flex col-4">
+                <img class="card-img-top col-4" src="reactjl.png" alt="React" />
+                <img
+                  class="card-img-top col-4"
+                  src="bootstrap.jpg"
+                  alt="Bootstrap"
+                />
+                <img class="card-img-top col-4" src="jquery.png" alt="jQuery" />
               </div>
-            </div>
-            <div className="col-md-6 p-3 p-md-2 d-flex justify-content-center align-items-center justify-content-md-start">
-              <div class="card col-10">
-                <img class="card-img-top border-bottom git-img" src="git.png" alt="Card image cap" />
-                <div class="card-body">
-                  <h5 class="card-title text-center"> Version Control </h5>
-                  <p class="card-text"> Git </p>
-                </div>
+              <div className="card-body">
+                <h5 class="card-title">Frameworks</h5>
+                <p class="card-text">React, Bootstrap, jQuery</p>
               </div>
             </div>
           </div>
         </div>
-        <Footer />
+
+        <div className="row ms-auto me-auto justify-content-center">
+          <div className="col-md-8 p-1 p-lg-2 p-xl-3">
+            <div className="card  p-3 p-xl-5">
+              <div className="image-body d-flex col-3">
+                <img
+                  class="card-img-top col-3"
+                  src="git.png"
+                  alt="Git/Github"
+                />
+                <img
+                  class="card-img-top col-3"
+                  src="firbase.png"
+                  alt="Firebase"
+                />
+                <img class="card-img-top col-3" src="sass.png" alt="Sass" />
+                <img class="card-img-top col-3" src="jest.png" alt="Jest" />
+              </div>
+              <div className="card-body">
+                <h5 class="card-title">Tools</h5>
+                <p class="card-text">Git/GitHub, Firebase, Sass, Jest</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
-  )
+  );
 }
 
-export default Skills
+export default Skills;

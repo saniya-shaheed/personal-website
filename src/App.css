@@ -19,7 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .bg-red {
-  background-color: rgb(218, 35, 35);
+  background-color: rgb(190, 91, 91);
 }
 
 .bg-blue {
@@ -34,6 +34,10 @@ footer a {
   width: 40px;
 }
 
+footer svg {
+  width: 20px;
+}
+
 .copyright {
   font-size: 0.6rem;
 }
@@ -42,13 +46,25 @@ footer a {
   color: rgb(113, 111, 111);
 }
 
+.resume-header {
+  justify-content: space-between;
+  align-items: center;
+}
+
 .project-link {
   color: gray;
 }
 
 .projects-section a {
   color: #212529;
+  text-decoration: none;
+  font-weight: 500;
 }
+
+.page-link {
+  font-weight: bold;
+}
+
 .resume-project-link a {
   font-size: 1rem;
 }
@@ -76,48 +92,192 @@ footer a {
   color: black;
 }
 
+
+
+.card-image-flex {
+  display: flex;
+}
+
+
 @media screen and (min-width: 1024px) {
 
   .bg-orange, .bg-red, .bg-blue, .bg-green {
     height: 105px;
   }
 
-  .card {
-    width: 300px;
-  }
 
-  .web-tech-img img {
-    height: 143px;
-  }
+  
 
   .contact-section-button button {
     height: 130px;
     width: 130px;
     font-size: 1.5rem;
   }  
+
+  
   
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 2560px) {
 
-  .card-first-row .card {
-    height: 400px;
+  header h2 {
+    font-size: 4rem;
   }
 
-  .react-img-height {
-    height: 285px;
+  header a {
+    font-size: 2.2rem;
   }
 
-  .card-second-row .card {
-    height: 286px;
+  .homepage-section {
+    height: 800px;
+    display: flex;
+    align-items: center;
   }
 
-  .card-second-row img {
-    height: 200px;
+  .homepage-section h1 {
+    font-size: 6rem;
+
   }
 
-  .js-library-img img {
-    height: 196px;
+  .homepage-section h4 {
+    font-size: 2.5rem;
+    color: gray;
   }
 
+  .homepage-section h2 {
+    font-size: 3.5rem;
+  }
+
+  .homepage-section p {
+    font-size: 1.9rem;
+  }
+
+  .homepage-section h6 {
+    font-size: 2rem;
+  }
+
+  .skills-section h1 {
+    font-size: 7rem;
+  }
+
+  .skills-section h5 {
+    font-size: 3rem;
+  }
+
+  .skills-section p {
+    font-size: 2rem;
+  }
+
+  .resume-section h1 {
+    font-size: 7rem;
+  }
+
+
+
+  .resume-header button {
+    height: 60px;
+    width: 300px;
+    font-size: 1.9rem;
+  }
+
+  .resume-section h3 {
+    font-size: 3rem;
+  }
+
+  .resume-year {
+    font-size: 2.4rem;
+  }
+
+  .resume-project-link {
+    font-size: 2.4rem;
+  }
+
+  .resume-project-link a {
+    font-size: 2.2rem;
+  }
+
+  .resume-section h5 {
+    font-size: 2.7rem;
+  }
+
+  .resume-section li {
+    font-size: 2.5rem;
+  }
+
+  .university-name {
+    font-size: 2.4rem;
+  }
+
+  .projects-section h1 {
+    font-size: 7rem;
+  }
+
+  .projects-section h5 {
+font-size: 3rem;
+  } 
+
+  .page-link {
+font-size: 2rem;
+  }
+  
+  .project-ul {
+  font-size: 2rem;
+  }
+
+  .contact-section h1 {
+    font-size: 7rem;
+  }
+
+  .contact-section footer {
+    font-size: 2.8rem;
+  }
+
+  .contact-section h6 {
+    font-size: 2.5rem;
+  }
+
+  .contact-section p {
+    font-size: 2.2rem;
+  }
+
+  .contact-section a {
+    font-size: 2.2rem;
+  }
+
+  .contact-section label {
+    font-size: 2.2rem;
+  }
+
+  .contact-section input {
+    font-size: 2rem;
+    height: 60px;
+  }
+
+  .contact-section textarea {
+    font-size: 2rem;
+  }
+
+  .contact-section-button button {
+    height: 240px;
+    width: 240px;
+    font-size: 3rem;
+  }
+
+  footer h6 {
+    font-size: 2rem;
+  }
+
+  footer p {
+    font-size: 2rem;
+  }
+
+  footer svg {
+    height: 35px;
+    width: 40px;
+  }
+
+  .copyright {
+    font-size: 1.5rem;
+  }
 }
+
