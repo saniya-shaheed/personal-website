@@ -11,7 +11,7 @@ function Homepage() {
               <img
                 src="banner.jpg"
                 alt="Me"
-                className="p-3 pt-md-2 pt-lg-4 img-fluid "
+                className="p-3 pt-md-2 pt-lg-4 img-fluid rounded-circle"
               />
             </div>
             <div className="col-md-6 col-xl-5 pt-2 pb-3 pt-md-5">

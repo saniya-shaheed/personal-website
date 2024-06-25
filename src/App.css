@@ -30,6 +30,11 @@ h1, h2, h3, h4, h5, h6 {
   background-color: rgb(142, 210, 142);
 }
 
+.homepage-section img {
+  box-shadow: 1px 0 0 1px lightgray;
+    height: 80%;
+}
+
 footer a {
   width: 40px;
 }
