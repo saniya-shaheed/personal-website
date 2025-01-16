@@ -9,7 +9,7 @@ function Homepage() {
           <div className="row justify-content-xl-center">
             <div className="col-md-6 col-xl-5 d-flex align-items-center justify-content-center">
               <img
-                src="/banner.jpg"
+                src="banner.jpg"
                 alt="Me"
                 className="p-3 pt-md-2 pt-lg-4 img-fluid rounded-circle"
               />
@@ -21,12 +21,18 @@ function Homepage() {
               <h4 className=" pt-2"> Welcome to My World of Coding!</h4>
               <p>
                 {" "}
-                <h1>I'm Saniya </h1>A passionate and dedicated programming
-                enthusiast. I'm a freelance UI/UX developer based in Dubai, UAE.
-                I strives to build immersive and beautiful web applications
-                through carefully crafted code and user-centric design. Join me
-                on this exciting journey as I continue to evolve and innovate in
-                the world of web development!
+                <h1>I'm Saniya </h1>
+                <p>A passionate and dedicated programming 
+                enthusiast, I am a freelance <strong>Full-Stack Web Developer</strong> based 
+                in Dubai, UAE. With expertise in building immersive and
+                 functional web applications, I create 
+                 seamless user experiences through carefully crafted code 
+                 and design. My skill set ensure robust backend 
+                 systems and dynamic, user-friendly frontends.</p>
+<p>
+Join me on this exciting journey as I continue to innovate and evolve in
+ the world of web development, delivering cutting-edge solutions tailored 
+ to users' needs! </p>
               </p>
               <div className="d-flex pt-4 pb-md-5">
                 <div className="col-3 rounded-circle bg-red justify-content-center align-items-center d-flex">

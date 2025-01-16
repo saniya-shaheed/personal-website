@@ -11,7 +11,7 @@ function Resume() {
           <div className="col-md-8 p-5 pt-1 pt-md-5 align-items-center justify-content-md-end d-flex">
             <button className="btn btn-secondary">
               <a
-                href="cv.webp"
+                href="1.png"
                 className="text-decoration-none text-white"
                 download
               >
@@ -46,7 +46,7 @@ function Resume() {
               {" "}
               While I may not have formal work experience in a professional
               setting, I have dedicated my time to honoring my skills in
-              frontend development through various projects.
+              full-stack web development through various projects.
             </p>
             <a href="/personal-website/projects" className="project-link">
               {" "}
@@ -80,13 +80,16 @@ function Resume() {
                 <ul className="list-unstyled">
                   <li> -React </li>
                   <li>-Bootstrap </li>
-                  <li>-jQuery</li>
+                  <li>-Express.js</li>
                 </ul>
               </li>
               <li>
                 <h5 className="pt-4">Tools</h5>
                 <ul className="list-unstyled">
                   <li> -Git / Github </li>
+                  <li> -Node.js </li>
+                  <li> -MongoDB </li>
+                  <li> -Postman </li>
                   <li> -Jest </li>
                   <li> -Firebase </li>
                   <li> -Sass </li>
@@ -100,6 +103,7 @@ function Resume() {
                   <li> -Cross-browser Compatibility </li>
                   <li> -Axios </li>
                   <li> -JSON </li>
+                  <li> -CRUD Operations </li>
                   <li> -Debugging </li>
                   <li> -Problem Solving </li>
                   <li> -Adaptive Learning </li>
