@@ -14,7 +14,52 @@ function Projects() {
             data-ride="carousel"
           >
             <div class="carousel-inner">
-              <div class="carousel-item active">
+            <div class="carousel-item active">
+                <a href="https://fastfixautomaintanence.onrender.com/adminFF">
+                  <img
+                    class="d-block w-100 "
+                    src="fastfix.png"
+                    alt="First slide"
+                  />
+                </a>
+                <div className="bg-white rounded-bottom-5">
+                  <h5 className="p-3 pb-1 text-secondary">
+                    {" "}
+                    1. Web Application for FastFix Automaintanece data management{" "}
+                  </h5>
+                  <p className="ps-3 pb-4 caption-carousel">
+                    <div className="page-link">
+                      {" "}
+                      <p>
+                        Website:{" "}
+                        <a href="https://fastfixautomaintanence.onrender.com/adminFF" className="text-secondary">
+                        https://fastfixautomaintanence.onrender.com/adminFF{" "}
+                        </a>
+                      </p>
+                    </div>
+                    <ul className="project-ul">
+                      <li>
+
+                      Designed and developed separate interfaces for users and admins, including
+authentication. </li>
+<li>
+Implemented <strong>CRUD </strong> operations on customer, dealers, employee details, with
+a detailed view for managing multiple vehicles or customers, etc.</li>
+<li>
+Implemented a <strong>dynamic expense management </strong>system that tracks monthly and
+yearly expenses and calculates revenue and profit dynamically.
+</li>
+<li>Integrated <strong>search functionality </strong> for customers, dealers and vehicles.</li>
+<li>
+Utilized the <strong>MERN stack (MongoDB, Express.js, React, Node.js) </strong> with tools like
+<strong>Postman and Git </strong> for efficient development and testing workflows.</li>
+<li>Deployed the frontend and backend separately using<strong> Render</strong>  for seamless and
+scalable application hosting.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-item">
                 <a href="https://saniya-shaheed.github.io/weatherist/">
                   <img
                     class="d-block w-100 "
@@ -25,14 +70,14 @@ function Projects() {
                 <div className="bg-white rounded-bottom-5">
                   <h5 className="p-3 pb-1 text-secondary">
                     {" "}
-                    1. Weatherist Weather App{" "}
+                    2. Weatherist Weather App{" "}
                   </h5>
                   <p className="ps-3 pb-4 caption-carousel">
                     <div className="page-link">
                       {" "}
                       <p>
                         Website:{" "}
-                        <a className="text-secondary">
+                        <a  href="https://saniya-shaheed.github.io/weatherist/" className="text-secondary">
                           https://saniya-shaheed.github.io/weatherist/{" "}
                         </a>
                       </p>
@@ -74,14 +119,14 @@ function Projects() {
                 <div className="bg-white rounded-bottom-5">
                   <h5 className="p-3 pb-1 text-secondary">
                     {" "}
-                    2. Al Hamd Acupuncture{" "}
+                    3. Al Hamd Acupuncture{" "}
                   </h5>
                   <p className="ps-3 pb-4 caption-carousel">
                     <div className="page-link">
                       {" "}
                       <p>
                         Website:{" "}
-                        <a className="text-secondary">
+                        <a href="https://saniya-shaheed.github.io/alhamd-acupuncture/"  className="text-secondary">
                           {" "}
                           https://saniya-shaheed.github.io/alhamd_acupuncture/{" "}
                         </a>
@@ -130,14 +175,14 @@ function Projects() {
                 <div className="bg-white rounded-bottom-5">
                   <h5 className="p-3 pb-1 text-secondary">
                     {" "}
-                    3. ClickMart eCommerce{" "}
+                    4. ClickMart eCommerce{" "}
                   </h5>
                   <p className="ps-3 pb-4 caption-carousel">
                     <div className="page-link">
                       {" "}
                       <p>
                         Website:{" "}
-                        <a className="text-secondary">
+                        <a href="https://saniya-shaheed.github.io/clickmart-ecommerce/" className="text-secondary">
                           https://saniya-shaheed.github.io/clickmart-ecommerce/{" "}
                         </a>
                       </p>

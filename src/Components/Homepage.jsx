@@ -9,7 +9,7 @@ function Homepage() {
           <div className="row justify-content-xl-center">
             <div className="col-md-6 col-xl-5 d-flex align-items-center justify-content-center">
               <img
-                src="banner.jpg"
+                src="/banner.jpg"
                 alt="Me"
                 className="p-3 pt-md-2 pt-lg-4 img-fluid rounded-circle"
               />
